@@ -5,7 +5,6 @@ body{
   font-family: "Cantarell",sans-serif;
   color:black;
   background: url("norwegian_rose.png");
-
 }
 h1{
   font-family: "Fjalla One",sans-serif;;
@@ -64,7 +63,6 @@ h2{
 }
 
 #experience h3{
-
   border-bottom: 1px solid black;
 }
 
@@ -93,7 +91,6 @@ h2{
 #right-col {
   float: right;
 }
-
 
 #umtv li{
   padding-bottom: 20px;
