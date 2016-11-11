@@ -71,6 +71,7 @@ h2{
 
 #container {
   max-width: 960px;
+  min-width: 320;
   margin: 5em auto;
   overflow: auto;
   padding: 30px;
@@ -78,12 +79,13 @@ h2{
 
 #left-col,
 #right-col {
-  max-width: 440px;
+  max-width: 420px;
+
 }
 
 #left-col {
   float: left;
-  margin-right: 40px;
+  margin-right: 60px;
 }
 
 #right-col {
