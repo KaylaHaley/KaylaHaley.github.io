@@ -77,10 +77,12 @@ h2{
   padding: 30px;
 }
 
-#left-col,
+#left-col{
+  max-width: 420px;
+}
+
 #right-col {
   max-width: 420px;
-
 }
 
 #left-col {
