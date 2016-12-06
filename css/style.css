@@ -61,6 +61,10 @@ nav a:hover{
   color: #C71585;
 }
 
+nav a:visited{
+  color: white;
+}
+
 
 
 h2{
