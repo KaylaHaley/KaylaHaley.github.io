@@ -4,8 +4,25 @@ body{
   font-size: 16px;
   font-family: "Cantarell",sans-serif;
   color:black;
-  background: url("norwegian_rose.png");
+  background: url("../img/norwegian_rose.png");
 }
+
+a{
+  color: #3CB371;
+}
+
+a:visited{
+  color: black ;
+}
+
+a:hover{
+  color: #C71585;
+}
+
+a:active{
+  color:white;
+}
+
 h1{
   font-family: "Fjalla One",sans-serif;;
   font-size: 60px;
@@ -41,25 +58,21 @@ nav a {
   color: white;
 }
 nav a:hover{
-  color: 	#FF69B4;
+  color: #C71585;
 }
 
-a:visited{
-  color: #3CB371;
-}
 
-a{
-  color: black;
-}
-a:hover{
-  color:#FF69B4;
-}
 
 h2{
   font-family: "Fjalla One",sans-serif;;
   font-size: 30px;
   margin:0;
   border-bottom: 2px solid black;
+}
+
+img{
+  border: 2px solid grey;
+  box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.50);
 }
 
 #experience h3{
@@ -77,20 +90,39 @@ h2{
 
 #left-col{
   max-width: 420px;
-}
-
-#right-col {
-  max-width: 420px;
-}
-
-#left-col {
   float: left;
   margin-right: 60px;
 }
 
 #right-col {
+  max-width: 420px;
   float: right;
 }
+
+#video h2 {
+  margin-bottom: 1em;
+}
+
+#video p {
+  margin-top: 0;
+}
+
+#video .left-col {
+  max-width: 620px;
+  margin-right: 20px;
+  float:left;
+}
+
+#video .right-col {
+  max-width: 340px;
+  float: right;
+}
+
+iframe{
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.50);
+}
+
 
 #umtv li{
   padding-bottom: 20px;
