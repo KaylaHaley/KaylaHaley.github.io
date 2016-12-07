@@ -57,12 +57,13 @@ nav a {
   padding: 4px 8px;
   color: white;
 }
-nav a:hover{
-  color: #C71585;
-}
 
 nav a:visited{
   color: white;
+}
+
+nav a:hover{
+  color: #C71585;
 }
 
 nav a:active{
