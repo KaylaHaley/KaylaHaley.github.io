@@ -65,7 +65,9 @@ nav a:visited{
   color: white;
 }
 
-
+nav a:active{
+  color: black;
+}
 
 h2{
   font-family: "Fjalla One",sans-serif;;
